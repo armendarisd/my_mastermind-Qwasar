@@ -2,18 +2,27 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+The task is to simulate the game "Mastermind". There are two players. One player should pick a secret code (colors) from nine colors. The other player should guess wich is the secret code. There is a number of attempts and after each attempt the player receive feedback. Well placed pieces : The color is in the right position. Missplaced pieces: The color is in the combination, but not in the right order.
 
 ## Description
-TODO - How have you solved the problem?
+ PART I 
+    In this part, the program asks for the number of attemps that the player can use to guess the secret code
 
-## Installation
-TODO - How to install your project? npm install? make? make re?
+PART II 
+    In this part, the program asks for the secret code. This part has a validation, it means that the input should be an integer. 
+    If not, the program can't continue.
+
+PART III 
+    In this part, the player should give the attempt. The validation like PART III is active as well and the number of attempts are
+    the same that was given in PART I
+
+PART IV 
+    In this part of the program, the program take the final game decision. Try it again, the game is over or the player  has won.
 
 ## Usage
 TODO - How does it work?
 ```
-./my_project argument1 argument2
+./my_mastermind
 ```
 
 ### The Core Team
